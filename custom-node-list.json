@@ -7288,6 +7288,16 @@
             "description": "ComfyUI nodes to use ReNoise"
         },
         {
+            "author": "logtd",
+            "title": "ComfyUI-MotionThiefExperiment",
+            "reference": "https://github.com/logtd/ComfyUI-MotionThiefExperiment",
+            "files": [
+                "https://github.com/logtd/ComfyUI-MotionThiefExperiment"
+            ],
+            "install_type": "git-clone",
+            "description": "experimental node pack to test using reference videos for their motion."
+        },
+        {
             "author": "Big-Idea-Technology",
             "title": "ComfyUI-Book-Tools Nodes for ComfyUI",
             "id": "booktool",
@@ -9189,6 +9199,16 @@
             "description": "a custom node for [a/FancyVideo](https://github.com/360CVGroup/FancyVideo)"
         },
         {
+            "author": "AIFSH",
+            "title": "VideoSys-ComfyUI",
+            "reference": "https://github.com/AIFSH/VideoSys-ComfyUI",
+            "files": [
+                "https://github.com/AIFSH/VideoSys-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:TextNode, PreViewVideo, VideoSysNode."
+        },
+        {
             "author": "Koishi-Star",
             "title": "Euler-Smea-Dyn-Sampler",
             "id": "smea",
@@ -9504,7 +9524,7 @@
                 "https://github.com/pamparamm/ComfyUI-vectorscope-cc"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI port of a wonderful extension [a/SD Webui Vectorscope CC by Haoming02](https://github.com/Haoming02/sd-webui-vectorscope-cc).\nBased on (and probably incompatible with) [a/ComfyUI Diffusion Color Grading by Haoming02](https://github.com/Haoming02/comfyui-diffusion-cg)."
+            "description": "ComfyUI port of Vectorscope CC and Diffusion Color Grading by Haoming02. Makes it possible to adjust Brightness/Contrast/Saturation/Hue during image generation."
         },
         {
             "author": "pamparamm",
@@ -12380,7 +12400,7 @@
                 "https://github.com/Marksusu/ComfyUI_MTCLIPEncode"
             ],
             "install_type": "git-clone",
-            "description": "Nodes:MTCLIPEncode\n[w/Repo name is changed from ComfyUI_MTEncode to MECLIPEncode. Please remove one and reinstall this.]"
+            "description": "MTCLIPEncode: An extension for ComfyUI's CLIPTextEncode node, offering multilingual translation (using MarianMT) and prompt enhancement (using Ollama). Seamlessly translate your native language prompts into English and further optimize them for generating your desired images with Stable Diffusion. Supports Krita AI Diffusion."
         },
         {
             "author": "fssorc",
@@ -13591,6 +13611,16 @@
             "description": "Auto messging sd-image and sd-info to mobile phone IM realtime. (LINE | Telegram | Discord)"
         },
         {
+            "author": "xlinx",
+            "title": "ComfyUI-decadetw-spout-syphon-im-vj",
+            "reference": "https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj",
+            "files": [
+                "https://github.com/xlinx/ComfyUI-decadetw-spout-syphon-im-vj"
+            ],
+            "install_type": "git-clone",
+            "description": "I'm SD-VJ. (share SD-generating-process in realtime by gpu)"
+        },
+        {
             "author": "wmpmiles",
             "title": "ComfyUI-GTF-Utilities",
             "reference": "https://github.com/wmpmiles/ComfyUI-GTF-Utilities",
@@ -13993,7 +14023,38 @@
             "install_type": "git-clone",
             "description": "Nodes:KolorsAwesomePrompts"
         },
-
+        {
+            "author": "IuvenisSapiens",
+            "title": "ComfyUI_Qwen2-VL-Instruct",
+            "id": "qwen2-vl-instruct",
+            "reference": "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct",
+            "files": [
+                "https://github.com/IuvenisSapiens/ComfyUI_Qwen2-VL-Instruct"
+            ],
+            "install_type": "git-clone",
+            "description": "This is an implementation of [a/Qwen2-VL-Instruct](https://github.com/QwenLM/Qwen2-VL) by [a/ComfyUI](https://github.com/comfyanonymous/ComfyUI), which includes, but is not limited to, support for text-based queries, video queries, single-image queries, and multi-image queries to generate captions or responses."
+        },
+        {
+            "author": "Hmily",
+            "title": "ComfyUI-Light-Tool",
+            "id": "hmily",
+            "reference": "https://github.com/ihmily/ComfyUI-Light-Tool",
+            "files": [
+                "https://github.com/ihmily/ComfyUI-Light-Tool"
+            ],
+            "install_type": "git-clone",
+            "description": "An awesome light image processing tool nodes for ComfyUI."
+        },
+        {
+            "author": "k-komarov",
+            "title": "comfyui-bunny-cdn-storage",
+            "reference": "https://github.com/k-komarov/comfyui-bunny-cdn-storage",
+            "files": [
+                "https://github.com/k-komarov/comfyui-bunny-cdn-storage"
+            ],
+            "install_type": "git-clone",
+            "description": "Save Your Image to BunnyStorage"
+        },
 
 
 
